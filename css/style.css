@@ -47,15 +47,15 @@ header {
 .top-message-container {
   position: absolute;
   width: 730px;
-  right: 770px;
-  top: 100px;
+  top: 5%;
+  transform: translate(-350px, 0);
 }
 
 .top-message-en {
   color: mediumvioletred;
   font-family: "Indie Flower", cursive;
   font-size: 80px;
-  line-height: 120px;
+  line-height: 8vw;
 }
 
 .top-message-ja {
@@ -88,18 +88,18 @@ header {
 }
 
 .inner-container {
-  width: 1250px;
+  width: 75vw;
   margin: auto;
   padding: 50px 0;
 }
 
 .second-inner-container {
-  width: 1000px;
+  width: 75%;
   margin: 0 auto;
 }
 
 .news-list-wrap {
-  margin: 30px 0;
+  /* margin: 30px 0; */
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
   font-size: 20px;
@@ -141,20 +141,25 @@ header {
 }
 
 .about-inner {
-  width: 1300px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 30px;
   position: relative;
 }
 
 .about-left {
+  width: 40%;
   color: gray;
   font-size: 22px;
 }
 
+.about-right {
+  width: 40%;
+}
+
 .about-right > img {
-  width: 540px;
+  width: 100%;
   height: auto;
 }
 
@@ -164,7 +169,7 @@ header {
 }
 
 .service-container .service-explain {
-  line-height: 35px;
+  line-height: 30px;
   font-size: 20px;
 }
 
@@ -204,12 +209,12 @@ header {
 }
 
 .service-img {
-  width: 200px;
+  width: 13vw;
   margin: 0 auto;
 }
 
-.service-container img {
-  width: 200px;
+.service-img img {
+  width: 13vw;
   height: auto;
 }
 
@@ -224,13 +229,13 @@ header {
 }
 
 .blog-card {
-  width: 380px;
+  width: 30%;
   border-radius: 15px;
   background-color: white;
 }
 
 .blog-card-img > img {
-  width: 380px;
+  width: 100%;
   height: auto;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -251,7 +256,7 @@ header {
 }
 
 .blog-card-text {
-  padding: 30px;
+  padding: 25px;
 }
 
 .blog-card-title {
@@ -263,6 +268,10 @@ header {
   color: gray;
   display: flex;
   justify-content: space-between;
+}
+
+.blog-card-label p {
+  margin: 0;
 }
 
 .service-button-wrap {
